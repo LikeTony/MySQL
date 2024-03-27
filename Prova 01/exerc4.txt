@@ -1,0 +1,5 @@
+Mae(IDMae#, NomeMae, CEP, Telefone)
+Medico(IDMedico#, NomeMedico, Especialidade)
+Bebe(CodigoBebe#, NomeBebe,DataNascimento, IDMae, IDMedico)
+	IDMae referencia Mae
+	IDMedico referencia Medico

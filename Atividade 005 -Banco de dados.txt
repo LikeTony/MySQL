@@ -1,0 +1,15 @@
+Entidades:
+
+- PessoaFis
+  - Atributos: CIC, Nome
+
+- PessoaJur
+  - Atributos: CGC, RazSoc
+
+- Cliente
+  - Atributos: ID_Cliente, Tipo, CIC, CGC
+  - Descrição: Tabela que inclui um identificador único para cada cliente (ID_Cliente), indicação se é pessoa física ou jurídica (Tipo), e os campos CIC e CGC para manter as informações específicas dependendo do tipo de cliente.
+
+- Venda
+  - Atributos: No, Data, ClienteID, Tipo
+  - Descrição: Tabela que mantém informações sobre vendas, incluindo um número de identificação (No), a data da venda (Data), uma referência ao cliente através do campo ClienteID e uma indicação se o cliente é pessoa física ou jurídica (Tipo).

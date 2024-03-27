@@ -1,0 +1,5 @@
+O Modelo Entidade e Relacionamento (MER) é uma representação conceitual (visual) do sistema de banco de dados e 
+é usado para ter uma noção geral do que tera que ser feito e quais parametros serão adicionados
+
+Já o Modelo Relacional é uma representação logica do sistema de banco de dados e é usado 
+ja proximo da parte de construção do sistema final

@@ -1,0 +1,7 @@
+1. A cardinalidade de Veiculos para cliente é de 1 pra N
+
+2.	Veiculo(IDVeiculo#, Placa, Modelo, IDCliente)
+		IDCliente referencia Cliente.IDCliente
+	Cliente(IDCliente#)
+	PessoaFisica(IDCliente#, CPF, Nome)
+	PessoaJuridica(IDCliente#, CNPJ, RazaoSocial)

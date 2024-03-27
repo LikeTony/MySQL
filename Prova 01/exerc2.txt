@@ -1,0 +1,4 @@
+Employee(Man#, IDEmployee#, Name, BirthDate)
+JobHistory(IDEmployee#, IDJobHistory#, JobDate, Title)
+SalaryHistory(IDJobHistory#, IDSalaryHistory#, SalaryDate, salary)
+Children(IDEmployee#, IDChildren#, ChildName, BirthYear)
